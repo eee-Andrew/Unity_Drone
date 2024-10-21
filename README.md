@@ -61,7 +61,7 @@ Before you begin, ensure you have the following installed on your system:
 - Grab and hold the **Drone inputs* from Assets and place them to **Player input* from Inspector 
 - Double click the Test_input from Assets , will launch C# editor
 - Under the void Update function() {        } , write the following
- ```bash
+ ```csharp
   using UnityEngine;       // top section
   using UnityEngine.InputSystem; // those must be written in the top section of the program
  
@@ -159,7 +159,7 @@ Before you begin, ensure you have the following installed on your system:
 - In the Assets -> code -> create -> Folder name : Scripts
 - In the Scripts -> create -> C# Script ,name it : IP_Drone_Inputs , double click this , will open C# IDE Visual studeio 
 
-```bash
+```csharp
  using UnityEngine.InputSystem; // top section, write it down from Using UnityEngine;
  namespace myworkspace    // to secure the code will run smoothly place all the functions inside  namespace
   {
@@ -269,7 +269,7 @@ Before you begin, ensure you have the following installed on your system:
 - Double click the IP_Base_Rigidbody will launch the C# editor
 - 
 - 
-```bash
+```csharp
 
 using UnityEngine;
 
@@ -325,7 +325,7 @@ namespace myworkspace
 - Go to Scripts -> Create -> C# _> name it IP_Drone_Controller (you can change the icon too if you want)
 
 
-```bash
+```csharp
 using UnityEngine;
 
 namespace myworkspace
@@ -372,7 +372,7 @@ namespace myworkspace
 - you can set the icon as you want
 - Double click go to visual studio
   
-```bash
+```csharp
 
 using UnityEngine;
 
@@ -387,7 +387,7 @@ namespace myworkspace
 ```
 - Go back to Scripts -> Create -> C# -> name it IP_Drone_Engine
 - double click on it 
-```bash
+```csharp
 
 using UnityEngine;
 
