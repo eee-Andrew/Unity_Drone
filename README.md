@@ -21,13 +21,7 @@ To install this project, follow these steps:
 git clone https://github.com/yourusername/yourproject.git
 cd yourproject
 npm install
-```markdown
-#ok
-
-'''bash
-cd
 
 
-## Installation
-
+## Usage
 
