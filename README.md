@@ -37,7 +37,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Setup Instructions (2)
 - Go to Assets(down left) -> right click -> Create -> Input Actions -> name it : **Drone_inputs**
-- Double left click on Drone_inputs -> hit plus **+ button , name it : Drone
+- Double left click on Drone_inputs -> hit plus **+ button , name it : **Drone**
 - Click on New actions and name it : Move
 - delete the <No Binding> with right click and delete
 - 
