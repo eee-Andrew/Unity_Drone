@@ -25,7 +25,7 @@ Before you begin, ensure you have the following installed on your system:
 - **Python 3** for scripting, we will use it later [Python-downlaod](https://www.python.org/download/releases/3.0/)
 - **ROS (Robot Operating System)** **(Isnt necessary now)** [Ros-Kinetic](https://wiki.ros.org/kinetic/Installation/Ubuntu)
 - Install C# [C#-guide-w3school](https://www.w3schools.com/cs/cs_getstarted.php)
-- 
+  
 
 
 ## Setup Instructions 1
