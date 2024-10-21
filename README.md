@@ -68,12 +68,6 @@ Before you begin, ensure you have the following installed on your system:
 - Go to Assets -> Grab and hold Test_input and release it down from Player Input to inspector tab
 - hit Play button ( |> ) is on the middle-top -> press keys A,D on your keyboard and see if you have result on Console down left 
 
-
-
-https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0
-
-
-
 ## Drone Package
 -Go to [Drone Package](https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0) and download it , you will see one folder : Tectures one image.png and a .unity package
 - Grab the unity package and release it to unity's project tab
