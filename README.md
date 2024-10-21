@@ -13,7 +13,8 @@ ________________________________________________________________________________
 5. [Test Setup](#Test-Setup)
 6. [Drone Package](#Drone-Package)
 7. [Set Plane](#Set-Plane)
-8. [Contact](#contact)
+8. [Lighting](#Lighting)
+9. [New Input System](#New Input System)
 
 ## Introduction
 This project is a Unity-based drone simulation system designed for controlled navigation. Near future will be autonomous with swarm of drones (Master-slave)
@@ -69,7 +70,7 @@ Before you begin, ensure you have the following installed on your system:
 - hit Play button ( |> ) is on the middle-top -> press keys A,D on your keyboard and see if you have result on Console down left 
 
 ## Drone Package
--Go to [Drone Package](https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0) and download it , you will see one folder : Tectures one image.png and a .unity package
+-Go to [Drone Package](https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0) and download it , you will see one folder : Textures ,one image.png and a .unity package
 - Grab the unity package and release it to unity's project tab
 - New window will be appeared , press the import button (wait few secs)
 - Go to Assets -> Create -> Folder -> name it : Drone_Controller , inside this new folder create 3 new folders named : Art and Code and Input
@@ -90,6 +91,34 @@ Before you begin, ensure you have the following installed on your system:
 -  in the Light_GPR right click -> Light -> Reflection Probe
 
 ## Set Plane
+- Go to Level_GRP -> right click -> 3d object -> Plane -> rename it to ground 
+- Go to Transform -> scale -> x=10,y=10,z=10
+- Go to Art -> right click  -> show in Explore -> go to Art , open the download file from previous steps and copy paste the texture folder in the art folder
+- Go back to Unity -> Project tab -> Art -> click Gray_Grid_MAT and you will see that a new Inspector opens , in the same folder textures : you will see a gray-grid with black icon, drag it and place it to the Inspector tab Under the *MAIN MAPS in the White icon (Albedo)
+- Go back to Project -> Gray_Grid_MAt and drag it to the main Scene inside the "animated environment"
+- We can change the Tiling in the Ispector to be 100 x 100
+- click on the animated Scene (ground) , we have to se the reflection probe to static (top right corner) click the box
+  
+## Lighting
+- Window -> Rendering -> Lighting Settings
+- At this point turn of the Realtime Lighting
+- change the Indirect samples and the enviroment samples to 128 from 500
+- change the lightmap Resolution to 10 from 40 
+- Let unticked the Ambient Occlusion box
+- Lightmap Parameters set them to Default-LowResolution
+- Hit Generate Lighting (will take a minute)
+- You will see a mirror ball above the drone means everything is working if you dont see just click the Reflection Probe from Hierarchy
+- 
+- 
+
+
+## New Input System 
+In this section we will set up the Input Mapping
+-
+
+
+
+
 
 
 
