@@ -14,7 +14,7 @@ ________________________________________________________________________________
 6. [Drone Package](#Drone-Package)
 7. [Set Plane](#Set-Plane)
 8. [Lighting](#Lighting)
-9. [New Input System](#New Input System)
+9. [New Input System](#New-Input-System)
 
 ## Introduction
 This project is a Unity-based drone simulation system designed for controlled navigation. Near future will be autonomous with swarm of drones (Master-slave)
