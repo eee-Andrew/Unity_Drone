@@ -1,8 +1,7 @@
 ## Unity_Drone
-Unity controller for Drone
+Design from scratch a Drone based controlling system with lighting and physics 
 _____________________________________________________________________________________________________________________________________________________________________
 
-# Project Title
 
 A brief description of what this project does and who it's for.
 
@@ -22,5 +21,13 @@ To install this project, follow these steps:
 git clone https://github.com/yourusername/yourproject.git
 cd yourproject
 npm install
+
+#ok
+
+'''bash
+cd
+
+
+## Installation
 
 
