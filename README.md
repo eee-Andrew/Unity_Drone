@@ -113,7 +113,7 @@ Before you begin, ensure you have the following installed on your system:
 
 
 ## New Input System 
-In this section we will set up the Input Mapping
+-- In this section we will set up the Input Mapping
 -
 
 
