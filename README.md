@@ -1,4 +1,4 @@
-## Fly a reallystic drone in Unity 
+## Fly a realistic drone in Unity 
 Design from scratch a Drone based controlling system with lighting and physics 
 _____________________________________________________________________________________________________________________________________________________________________
 
@@ -244,7 +244,7 @@ Before you begin, ensure you have the following installed on your system:
 - Go back and then select the Layer : post
 - To see the post effects go to main camera and Add Component : Post-process Layer (there will be a yellow warning)
 - Set the layer fromn Nothing to post and set the Anti-aliasing to Temporal Anti-aliasing(TAA)
-- set the sharpness to 0.90 (so it will be more reallystic)
+- set the sharpness to 0.90 (so it will be more realistic)
 - select the Post in the Hierarchy and go to Inspector so you can press Add effect..
 - Select Unity -> Ambient Occlusion
 - set the Intensity to 1.20
