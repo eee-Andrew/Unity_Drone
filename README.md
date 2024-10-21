@@ -8,12 +8,11 @@ ________________________________________________________________________________
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Setup Instructions](#setup-instructions)
-5. [Usage](#usage)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Contact](#contact)
+3. [Setup Instructions](#setup-instructions)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Introduction
 This project is a Unity-based drone simulation system designed for controlled navigation. Near future will be autonomous with swarm of drones (Master-slave)
@@ -26,4 +25,36 @@ Before you begin, ensure you have the following installed on your system:
 - **ROS (Robot Operating System)** **(Isnt necessary now)** [Ros-Kinetic](https://wiki.ros.org/kinetic/Installation/Ubuntu)
 - install C# [C#-guide-w3school](https://www.w3schools.com/cs/cs_getstarted.php)
 - 
+
+
+## Setup Instructions (1)
+- Open Unity and create a new project 3D
+- Go to Edit -> Project Settings -> Player Settings -> Other Settings -> Switch from **Gamma to **Linear
+- Go to Window -> Package Manager -> "Advanced" tab -> Show preview packages -> search for: **Post Processing -> hit Install
+- Go to Window -> Package Manager -> "Advanced" tab -> Show preview packages -> search for: **Input System -> hit Install
+- restart the editor 
+
+
+## Setup Instructions (2)
+- Go to Assets(down left) -> right click -> Create -> Input Actions -> name it : **Drone_inputs
+- Double left click on Drone_inputs -> hit plus **+ button , name it : Drone
+- Click on New actions and name it : Move
+- delete the <No Binding> with right click and delete
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
