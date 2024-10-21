@@ -21,10 +21,10 @@ This project is a Unity-based drone simulation system designed for controlled na
 
 ## Prerequisites
 Before you begin, ensure you have the following installed on your system:
-- [Unity Hub]([https://unity.com/](https://unity.com/releases/editor/archive))
+- [Unity_Releases](https://unity.com/releases/editor/archive))
 - Unity version **2020.3**
 - **Python 3** for scripting, we will use it later
-- **ROS (Robot Operating System)** **(Isnt necessary now)** [Unity Hub](https://wiki.ros.org/kinetic/Installation/Ubuntu)
+- **ROS (Robot Operating System)** **(Isnt necessary now)** [Ros-Kinetic](https://wiki.ros.org/kinetic/Installation/Ubuntu)
 - install C# [Unity Hub](https://www.w3schools.com/cs/cs_getstarted.php)
 - 
 
