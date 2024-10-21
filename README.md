@@ -18,7 +18,7 @@ ________________________________________________________________________________
 10. [Create Script for Input System](#Create-Script-for-Input-System-for-Physics)
 11. [Camera Setup](#Camera-Setup)
 12. [Post Effects Setup](#Post-Effects-Setup)
-13. [Creating the Physics](#Creating-the-Pshysics)
+13. [Creating the physics](#Creating-the-Pshysics)
 
 
 ## Introduction
