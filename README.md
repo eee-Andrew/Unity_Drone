@@ -12,7 +12,7 @@ ________________________________________________________________________________
 4. [Setup Instructions (2)](#setup-instructions-2)
 5. [Test Setup](#Test-Setup)
 6. [Drone Package](#Drone-Package)
-7. [License](#license)
+7. [Set Plane](#Plane)
 8. [Contact](#contact)
 
 ## Introduction
@@ -75,14 +75,27 @@ https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.
 
 
 ## Drone Package
--Go to [Drone Package](https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0)
+-Go to [Drone Package](https://www.dropbox.com/scl/fi/bidjmh6zcce2o7sgjj1z8/IP_Drone01_Assets_04262020.zip?rlkey=3reihkfydxb6o2srelstvhbo2&e=1&dl=0) and download it , you will see one folder : Tectures one image.png and a .unity package
+- Grab the unity package and release it to unity's project tab
+- New window will be appeared , press the import button (wait few secs)
+- Go to Assets -> Create -> Folder -> name it : Drone_Controller , inside this new folder create 3 new folders named : Art and Code and Input
+- In the Art folder create a new folder named : Prefab
+- Go to Quad_Racer -> Art -> Drones -> 01 -> Drone_01 , and you will see the drone model (Yellow one)
+- Take the **Drones** folder from the last step and move it to **Art** folder which is a subfolder in the Drone_Controller folder
+- Right Click on Quad_Racer and delete it , we will not use it anymore
+- Drag and Drop the Drone_inputs folder to the input subfolder from previous step
+- delete the Test_input from Project and Hierarchy tabs ( we dont need it anymore)
+- In Project tab drag the Scenes folder to Drone_Controller folder, open the folder Scenes
+- Go to file -> save us -> Assets -> Drone_Controller -> Scenes -> File name : Drone_Controller_DEV -> save
+- Now you can see 2 files in Scenes , delete the SampleScene and keep the Drone_Controller_DEV
+- Go to Art folder -> Drones_01 -> Drage the Drone_01 to the Hierarchy tab, now you can see the drone in your scene
+- Go to Gizmos top middle-right -> Gizmos -> open the arrow -> Camera Speed -> set min 1 and Max 80
+- Lets organize our folders , go to Hierarchy tab -> right click -> Create Empty -> name it : Level_GPR  ,level group that will contain all the assets
+- In the Inspector tab -> Transform -> click the 3 dots ->hit reset
+- Go to Hierarchy -> Level_GPR , create a new empty with name : Light_GPR and drag the Directional light inside this,
+-  in the Light_GPR right click -> Light -> Reflection Probe
 
-
-
-
-
-
-
+## Set Plane
 
 
 
