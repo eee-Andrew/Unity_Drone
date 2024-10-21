@@ -14,7 +14,7 @@ ________________________________________________________________________________
 6. [Drone Package](#Drone-Package)
 7. [Set Plane](#Set-Plane)
 8. [Lighting](#Lighting)
-9. [New Input System](#New-Input-System)
+9. [New Input System for Physics](#New-Input-System-for-Physics)
 
 ## Introduction
 This project is a Unity-based drone simulation system designed for controlled navigation. Near future will be autonomous with swarm of drones (Master-slave)
@@ -112,9 +112,9 @@ Before you begin, ensure you have the following installed on your system:
 - 
 
 
-## New Input System 
--- In this section we will set up the Input Mapping
--
+## New Input System for Physics
+- In this section we will set up the Input Mapping
+- Go to Assets -> Drone -> Controller -> Input -> click the Drone_Input -> go to right and click edit asset
 
 
 
