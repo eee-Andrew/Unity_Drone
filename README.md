@@ -12,7 +12,7 @@ ________________________________________________________________________________
 4. [Setup Instructions (2)](#setup-instructions-2)
 5. [Test Setup](#Test-Setup)
 6. [Drone Package](#Drone-Package)
-7. [Set Plane](#Plane)
+7. [Set Plane](#Set-Plane)
 8. [Contact](#contact)
 
 ## Introduction
