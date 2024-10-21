@@ -10,7 +10,7 @@ ________________________________________________________________________________
 2. [Prerequisites](#prerequisites)
 3. [Setup Instructions (1)](#setup-instructions-1)
 4. [Setup Instructions (2)](#setup-instructions-2)
-5. [Usage](#usage)
+5. [Test Setup](#Test-Setup)
 6. [Contributing](#contributing)
 7. [License](#license)
 8. [Contact](#contact)
@@ -47,6 +47,34 @@ Before you begin, ensure you have the following installed on your system:
 - Define the keys you are pressing , go to search bar near Litsen and type : A [keyboard]
 - Go to Possitive and do the same by choosing : D [keyboard]
 - Press Save Asset
+
+## Test Setup
+- Go to Hierarchy -> right click -> empty -> call it : Test_input
+- Go to Assets -> Create -> C# script -> call it : Test_input
+- Click om Test_input from Hierarchy -> Go to inspector -> Add Component -> Player input
+- Grab and hold the **Drone inputs* from Assets and place them to **Player input* from Inspector 
+- Double click the Test_input from Assets , will launch C# editor
+- Under the void Update function() {        } , write the following
+ ```bash
+  using UnityEngine;       // top section
+  using UnityEngine.InputSystem; // those must be written in the top section of the program
+ 
+  private void OnMove(InputValue value)
+  {
+     Debug.Log(value.Get<float>());
+  }
+```
+- save it (ctrl + S) and go back to Unity 
+- Go to Assets -> Grab and hold Test_input and release it down from Player Input to inspector tab
+- hit Play button ( |> ) is on the middle-top -> press keys A,D on your keyboard and see if you have result on Console down left 
+
+
+
+
+
+
+
+
 
 
 
