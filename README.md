@@ -161,7 +161,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ```bash
  using UnityEngine.InputSystem; // top section, write it down from Using UnityEngine;
- namespace IndiePixel    // to secure the code will run smoothly place all the functions inside IndiePixel namespace
+ namespace myworkspace    // to secure the code will run smoothly place all the functions inside  namespace
   {
     [RequireComponent(typeof(PlayerInput))] // will search automatically if there is assigned a key component for player input,if not
      //will going to make one for us
@@ -273,7 +273,7 @@ Before you begin, ensure you have the following installed on your system:
 
 using UnityEngine;
 
-namespace IndiePixel
+namespace myworkspace
 {
       [RequireComponent(typeof(Rigidbody))]
     
@@ -284,7 +284,7 @@ namespace IndiePixel
       [SerializedField] private float weightInLbs =1f;
       
       const float lbsToKg = 0.454f;    //Unity works in kilograms not pounds(lbs)
-      private Rigidbody rb;
+      protected Rigidbody rb;
       protected float startDrag;
       protected float startAngularDrag;
       #endregion
@@ -328,31 +328,94 @@ namespace IndiePixel
 ```bash
 using UnityEngine;
 
-namespace IndiePixel
+namespace myworkspace
 {
    [RequireComponent(typeof(IP_Drone_Inputs))]
     public class IP_Drone_Controller : IP_Base_Rigidbody
+    {
+    #region Variables
+    [Header("Control Properties")]
+    [SerializeField] private float minMaxPitch =30f;
+    [SerializeField] private float minMaxRoll =30f;
+    [SerializeField] private float yawPower =4f;
+    [SerializeField] private IP_Drone_Inputs input;
+    #region Main Methods
 
 
+    #endregion
+    voide Start()
+      {
+         input = GetComponent<IP_Drone_Inputs>();
+       }
+    
+    #endregion
+    #region Custom Methods
+    protected override void HandlePhysics()
+    {
+       HandleEngines();
+       HandleControls();
+    }
+     protected virtual void HandleEngines()
+     {
+        rb.AddForce(Vecotr3.up * (rb.mass * Physics.gravity.magnitude));
+     }
 
-
-
+     protected vitual void HandleControls()
+     {
+     }
+     #endregion
+    }
 }
 ```
-Unity 2019 - Drone Controller - Section 3 - Video 3 3.30
+- Go to Scripts Folder -> create new folder name it : Interfaces
+- In it create a new C# script and name it : IEngine (I =interface)
+- you can set the icon as you want
+- Double click go to visual studio
+  
+```bash
 
+using UnityEngine;
 
+namespace myworkspace
+{
+    public interface IEngine
+    {
+      void InitEngine();
+      void UpdatedEngine();
+    }
+}
+```
+- Go back to Scripts -> Create -> C# -> name it IP_Drone_Engine
+- double click on it 
+```bash
 
+using UnityEngine;
 
+namespace myworkspace
+{
+    public class IP_Drone_Engine : MonoBehaviour, IEngine // highlight it right click and press Implement interface thats how u solve the red highlighting
+    {
+      #region Variables
+      [Header("Engine Properties")]
+      [SerializeField} private float maxPower = 4f;
+      #endregion
 
+      #region Interface Methods
+      public void InitEngine()
+      {
+        throw new System.NotImplementedException();
+      }
+      public void UpdateEngine()
+      {
+        throw new System.NotImplementedException();
+      }
+      #endregion
+    }
+}
+```
 
-
-
-
-
-
-
-
+Unity 2019 - Drone Controller - Section 3 - Video 4
+ 3 - Video 4
 
 
 
