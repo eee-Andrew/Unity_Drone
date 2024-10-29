@@ -4,7 +4,7 @@ ________________________________________________________________________________
 
 
 # Unity Drone System
-
+Unity 2019 - Drone Controller - Section 3 V.4
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
@@ -414,8 +414,7 @@ namespace myworkspace
 }
 ```
 
-Unity 2019 - Drone Controller - Section 3 - Video 4
- 3 - Video 4
+
 
 
 
